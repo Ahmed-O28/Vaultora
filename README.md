@@ -1,18 +1,10 @@
-# 🏦 Online Banking System (OBS)
+# Online Banking System (OBS)
 
 > A modern, full-stack digital banking platform and distributed systems showcase built with **Spring Boot 3**, **React 18**, **PostgreSQL Sharding**, and **Redis**.
 
-[![Java 21](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
-[![Spring Boot 3.3.5](https://img.shields.io/badge/Spring%20Boot-3.3.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
-[![React 18](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
-[![Vite 6](https://img.shields.io/badge/Vite-6-purple.svg)](https://vitejs.dev/)
-[![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16%20(4%20Shards)-336791.svg)](https://www.postgresql.org/)
-[![Redis 7](https://img.shields.io/badge/Redis-7-red.svg)](https://redis.io/)
-[![Docker Compose](https://img.shields.io/badge/Docker-Compose-2496ED.svg)](https://www.docker.com/)
-
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [About the Project](#-about-the-project)
 - [System Design Building Blocks](#-system-design-building-blocks)
 - [Core Features](#-core-features)
@@ -26,7 +18,7 @@
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 The **Online Banking System (OBS)** is an end-to-end financial platform that bridges real-world banking functionality with practical distributed systems architecture.
 
@@ -34,7 +26,7 @@ Beyond standard banking capabilities (money transfers, utility bill payments, tr
 
 ---
 
-## ⚡ System Design Building Blocks
+## System Design Building Blocks
 
 This application demonstrates 7 real-world system design patterns in action:
 
@@ -48,7 +40,7 @@ This application demonstrates 7 real-world system design patterns in action:
 
 ---
 
-## ✨ Core Features
+## Core Features
 
 ### 👤 Customer Experience
 * **Authentication & Security**: Stateless JWT-based authentication with BCrypt password hashing.
@@ -70,7 +62,7 @@ This application demonstrates 7 real-world system design patterns in action:
 
 ---
 
-## 🏛️ Architecture Overview
+## Architecture Overview
 
 ```text
                +----------------------------------------+
@@ -112,7 +104,7 @@ This application demonstrates 7 real-world system design patterns in action:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -125,7 +117,7 @@ This application demonstrates 7 real-world system design patterns in action:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 OnlineBankingSystem/
@@ -160,7 +152,7 @@ OnlineBankingSystem/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 📋 Prerequisites
 Make sure you have the following installed on your machine:
@@ -215,11 +207,11 @@ Open your browser and navigate to **`http://localhost:3000`** to access the appl
 
 ---
 
-## 🔐 Pre-configured Demo Credentials
+## Pre-configured Demo Credentials
 
 The database automatically seeds test accounts ready for instant testing:
 
-### 👤 Customer Accounts (User Portal)
+### Customer Accounts (User Portal)
 * **Default Password for all customers:** `password123`
 * **Default Security MPIN for transfers:** `1234`
 
@@ -230,14 +222,14 @@ The database automatically seeds test accounts ready for instant testing:
 | **Charlie Brown** | `charlie@bank.local` | `ACC-2001` | $10,000.00 | Shard 2 |
 | **Diana Prince** | `diana@bank.local` | `ACC-2002` | $2,500.00 | Shard 2 |
 
-### 🛡️ Administrator Account (Admin Portal)
+### Administrator Account (Admin Portal)
 * **URL:** `http://localhost:3000/admin/login`
 * **Username / Email:** `admin` or `admin@bank.local`
 * **Password:** `admin123`
 
 ---
 
-## 📡 Key API Endpoints
+## Key API Endpoints
 
 | Category | Method | Endpoint | Description |
 | :--- | :--- | :--- | :--- |
@@ -256,7 +248,7 @@ The database automatically seeds test accounts ready for instant testing:
 
 ---
 
-## ❓ Troubleshooting & FAQ
+## Troubleshooting
 
 1. **Database connection error on backend startup?**
    Make sure Docker containers are running (`docker compose ps`). Shards 1 through 4 listen on local ports `5432`, `5433`, `5434`, and `5435`.
@@ -267,5 +259,3 @@ The database automatically seeds test accounts ready for instant testing:
 
 ---
 
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
