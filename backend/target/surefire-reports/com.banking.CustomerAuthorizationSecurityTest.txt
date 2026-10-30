@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.banking.CustomerAuthorizationSecurityTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.277 s -- in com.banking.CustomerAuthorizationSecurityTest

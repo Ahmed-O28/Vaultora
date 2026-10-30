@@ -1,0 +1,12 @@
+com/banking/systemdesign/UniqueIdGeneratorFeatureTest.class
+com/banking/controller/HealthControllerTest.class
+com/banking/NotificationFeatureTest.class
+com/banking/IdGeneratorAndBillerApiTest.class
+com/banking/CustomerAndBillPaymentTest.class
+com/banking/AdminDashboardSecurityAndFeatureTest.class
+com/banking/ConsistentHashRouterTest.class
+com/banking/CustomerAuthorizationSecurityTest.class
+com/banking/SystemDesignIntegrationAndRegressionTest.class
+com/banking/BankingIntegrationTest.class
+com/banking/controller/MetricsControllerTest.class
+com/banking/systemdesign/SystemDesignComponentsTest.class
